@@ -1,0 +1,21 @@
+{
+  "DEM_name": "USGS/3DEP/10m",
+  "bllat": 40.50, "bllon": -112.50,
+  "trlat": 40.75, "trlon": -112.20,
+  "tilewidth": 150,
+  "zscale": 1.5,
+  "basethick": 2.0,
+  "zip_file_name": "stansbury_test",
+
+  "layers": ["roads", "water", "towns"],
+  "road_min_width_mm": 0.8,
+  "water_min_width_mm": 1.0,
+  "min_feature_size_mm": 2.0,
+  "road_classes": ["motorway", "trunk", "primary", "secondary", "tertiary"],
+  "inlay_depth_mm": 0.6,
+  "road_height_mm": 0.4,
+  "water_height_mm": 0.0,
+  "town_height_mm": 0.0,
+  "feature_res_mm": 0.25,
+  "toolheads": {"terrain": 1, "roads": 2, "water": 3, "towns": 4}
+}

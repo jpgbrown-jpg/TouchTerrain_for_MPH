@@ -1,0 +1,21 @@
+{"type": "FeatureCollection",
+ "features": [
+  {"type": "Feature", "properties": {"highway": "motorway"},
+   "geometry": {"type": "LineString", "coordinates": [[-108.215, 44.545], [-108.15, 44.58], [-108.09, 44.60], [-108.01, 44.645]]}},
+  {"type": "Feature", "properties": {"highway": "tertiary"},
+   "geometry": {"type": "LineString", "coordinates": [[-108.12, 44.53], [-108.125, 44.57], [-108.11, 44.62], [-108.115, 44.66]]}},
+  {"type": "Feature", "properties": {"highway": "residential"},
+   "geometry": {"type": "LineString", "coordinates": [[-108.06, 44.55], [-108.05, 44.56]]}},
+  {"type": "Feature", "properties": {"waterway": "stream"},
+   "geometry": {"type": "LineString", "coordinates": [[-108.215, 44.63], [-108.17, 44.62], [-108.14, 44.60], [-108.10, 44.575], [-108.06, 44.565]]}},
+  {"type": "Feature", "properties": {"natural": "water"},
+   "geometry": {"type": "Polygon", "coordinates": [[[-108.06, 44.555], [-108.045, 44.552], [-108.035, 44.562], [-108.045, 44.572], [-108.06, 44.568], [-108.06, 44.555]]]}},
+  {"type": "Feature", "properties": {"natural": "water"},
+   "geometry": {"type": "Polygon", "coordinates": [[[-108.18, 44.55], [-108.1795, 44.55], [-108.1795, 44.56], [-108.18, 44.56], [-108.18, 44.55]]]}},
+  {"type": "Feature", "properties": {"natural": "water"},
+   "geometry": {"type": "Polygon", "coordinates": [[[-108.03, 44.64], [-108.0295, 44.64], [-108.0295, 44.6404], [-108.03, 44.6404], [-108.03, 44.64]]]}},
+  {"type": "Feature", "properties": {"landuse": "residential"},
+   "geometry": {"type": "Polygon", "coordinates": [[[-108.105, 44.585], [-108.08, 44.585], [-108.075, 44.605], [-108.10, 44.61], [-108.105, 44.585]]]}},
+  {"type": "Feature", "properties": {"landuse": "commercial"},
+   "geometry": {"type": "Polygon", "coordinates": [[[-108.20, 44.64], [-108.1995, 44.64], [-108.1995, 44.6403], [-108.20, 44.6403], [-108.20, 44.64]]]}}
+ ]}

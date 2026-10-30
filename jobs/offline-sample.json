@@ -1,0 +1,8 @@
+{
+  "importedDEM": "stuff/geotiff_example.tif",
+  "features_file": "test/multicolor/test_features.geojson",
+  "tilewidth": 120,
+  "zscale": 2.0,
+  "basethick": 2.0,
+  "zip_file_name": "offline_sample"
+}

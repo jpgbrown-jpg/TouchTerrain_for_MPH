@@ -1,0 +1,20 @@
+# TouchTerrain_for_MPH on a home server.
+# Fill in the two Earth Engine values below, then:  docker compose build
+services:
+  touchterrain:
+    build: .
+    image: touchterrain-mph
+    container_name: touchterrain
+    # run as your own Linux user so output files belong to you (check with: id -u ; id -g)
+    user: "1000:1000"
+    environment:
+      TOUCHTERRAIN_EE_ACCOUNT: "PUT-SERVICE-ACCOUNT-EMAIL-HERE"   # e.g. touchterrain@touchterrain-jb.iam.gserviceaccount.com
+      TOUCHTERRAIN_EE_PROJECT: "PUT-PROJECT-ID-HERE"              # e.g. touchterrain-jb
+      TOUCHTERRAIN_EE_SA_CREDS: /secrets/ee-key.json
+    volumes:
+      - /srv/data/touchterrain/secrets:/secrets:ro
+      - /srv/data/touchterrain/output:/output
+      - /srv/data/touchterrain/jobs:/jobs
+    ports:
+      - "8090:8080"     # web app at http://<server>:8090
+    restart: unless-stopped

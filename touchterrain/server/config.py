@@ -52,5 +52,5 @@ PREVIEWS_FOLDER = os.getenv('TOUCHTERRAIN_PREVIEWS_FOLDER', os.path.join(config.
 
 # This will be inlined in index.html to enable Google Analytics, However, this is
 # my tracking id, so if you use google analytics, make sure to use your own Tracking ID!
-GOOGLE_ANALYTICS_TRACKING_ID = "G-EGX5Y3PBYH"
+GOOGLE_ANALYTICS_TRACKING_ID = ""  # TouchTerrain_for_MPH: upstream ISU id removed
 # If you don't wan to use GA, set this to "" !

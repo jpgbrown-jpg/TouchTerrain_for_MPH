@@ -1,0 +1,13 @@
+# Conda environment for the TouchTerrain_for_MPH Docker image.
+# GDAL comes from conda-forge so it matches numpy 2 (pip cannot build it easily).
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - gdal>=3.9,<3.11
+  - numpy>=2.1
+  - scipy
+  - matplotlib-base
+  - pillow
+  - pip
